@@ -67,6 +67,9 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+header {
+  padding: 0 30px;
+}
 ul {
   list-style-type: none;
 }
@@ -190,6 +193,7 @@ Navbar
   width: 90vw;
   max-width: var(--max-width);
   display: flex;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
